@@ -15,7 +15,7 @@ sap_data_final = sap_data_final[sap_data_final['Is Mapped'] == 'No']
 
 di_data['Delivery Number'] = [x.replace('="', "").replace('"', "") for x in di_data['Delivery Number']]
 
-append_dataframe = 
+append_dataframe = ""
 
 print(append_dataframe)
 
